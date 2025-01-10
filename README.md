@@ -6,12 +6,12 @@ Batch downloader tool for my.totalschool (for photos and videos) written with PH
 To run this tool you will need PHP 8.x. and an existing account for my.totalschool platform.
 
 - Login into my.totalschool with your account
-- Get Cookie from you browser
-- Paste Cookie into cookie.txt file
+- Get Request Headers from you browser
+- Paste Headers into cookie.txt file
 - Run the tool
 
 
-How to View Cookies in Firefox
+How to Get Request Headers in Firefox
 
 - Select Photos from left menu (main menu)
 - Right click on page
@@ -19,7 +19,7 @@ How to View Cookies in Firefox
 - Select Network tab and reload the page (Ctrl + r)
 - Inside list with requests, search for request with "albums?page" in Column File
 - Right click on selected request and select Copy Value > Copy Request Headers
-- Paste the headers inside cookie.txt file
+- Paste the Headers inside cookie.txt file
 
 Example of Headers
 > GET /api/v1/photo-gallery/albums?page=1&include=links,permissions HTTP/3
